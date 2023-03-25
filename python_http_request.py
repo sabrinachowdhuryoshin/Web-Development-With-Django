@@ -38,6 +38,7 @@ while True:
     # if so, it breaks out of the loop
     if len(data)  < 1:
         break
+    
     # print out the received data
     # decoded as a string using the decode() method
     # with the end='' argument used to suppress the newline character
