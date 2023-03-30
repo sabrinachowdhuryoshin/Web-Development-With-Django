@@ -43,7 +43,8 @@ def create_server():
             # catches any exceptions that occur during execution
             # prints an error message
             # closes the server socket using the close() method
-            # prints a message to the console telling the user to access the server at http://localhost:9000.
+            # prints a message to the console 
+            # telling the user to access the server at http://localhost:9000
 
     except KeyboardInterrupt:
         print('\nShutting down...\n')
