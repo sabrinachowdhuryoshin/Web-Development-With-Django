@@ -33,6 +33,8 @@ def create_server():
             pieces = rd.split("\n")
             if(len(pieces)>0):
                 print(pieces[0])
+
+            # response of the server
             data = "HTTP/1.1 200 OK\r\n"
             data+= "Content-Type: text/html; charset=utf-8\r\n"
             data+= "\r\n"
